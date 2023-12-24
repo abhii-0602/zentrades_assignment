@@ -1,0 +1,73 @@
+/* Container for the entire table section */
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin:20px;
+}
+
+/* Styles for the available fields table and << button */
+.available-table {
+  margin-right: 10px;
+}
+
+/* Styles for the buttons */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Additional styling for the buttons */
+button {
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #ffffff; /* Green Color */
+  border: 1px solid #ebefee;
+  border-radius: 4px;
+  color: #000000; /* White Text */
+}
+
+/* Hover effect on buttons */
+button:hover {
+  background-color: #f9fafa; /* Darker shade of green on hover */
+  border: 1px solid #e7eeec;
+}
+
+/* Styles for the displayed fields table */
+.displayed-table {
+  margin-left: 10px;
+}
+
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #01d28e;
+  color: #fff;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 600px) {
+  .table-container {
+    flex-direction: column;
+  }
+
+  .available-table,
+  .displayed-table {
+    margin: 0;
+  }
+}

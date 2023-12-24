@@ -1,0 +1,89 @@
+.homeContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .pageTitle {
+    background-color: #555555;
+    color: aliceblue;
+    font-size: 32px;
+    margin: 0;
+    
+  }
+  
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  
+  .buttonBox { 
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .buttonList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttonList li {
+    margin: 1rem;
+  }
+  
+  .btn {
+    width: 300px;
+    background-color: #555555;
+    color: aliceblue;
+    padding: 10px 24px;
+    font-weight: 700;
+    border: 1px solid grey;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(126, 122, 122); 
+    opacity: 0.7;
+  }
+  .category-add {
+    float: right;
+}
+.category-add-btn{
+  margin-top: 20px;
+}
+.category-add-btn {
+  margin-top: 20px;
+  margin-left: -110px;
+}
+
+.category-add-div div {
+  width: -webkit-fill-available;
+}
+
+.category-add-btn{
+    width: 30%;
+    margin-top: 2px;
+    padding: 7px;
+    border-radius: 10px;
+}
