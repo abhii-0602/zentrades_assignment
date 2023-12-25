@@ -21,14 +21,14 @@
   }
   
   input[type="submit"] {
-    margin-top: 15px;
+    margin-top: 10px;
     cursor: pointer;
     font-size: 15px;
     background: #01d28e; /* Green Color */
     border: 1px solid #01d28e;
     border-radius: 4px;
     color: #fff; /* White Text */
-    padding: 2%; /* Equal padding on all sides */
+    padding: 3%; /* Equal padding on all sides */
     width: 100%; /* Make the button full width */
   }
   
@@ -42,8 +42,8 @@
     background-image: url('C:\Users\Abhimanyu Singh\OneDrive\Desktop\New folder\zentrades_assignment\login_page.png');
     padding: 140px; /* Adjusted padding */
     background-position: top; 
-    height: 210px; 
-    width: 500px;
+    height: 250px; 
+    width: 250px;
     background-repeat: no-repeat;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px; 
