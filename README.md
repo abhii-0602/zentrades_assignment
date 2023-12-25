@@ -1,6 +1,6 @@
-# All the task are made in react.js 
+# All the zentrade assignment(Tasks) are made in react.js 
 task can be choosen from zentradetasks file which is present in src folder
-all the modules are required to be insatll like bootstrap,router etc.
+,all the modules are required to be install like bootstrap,router etc.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
