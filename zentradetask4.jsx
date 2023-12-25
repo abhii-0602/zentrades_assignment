@@ -24,7 +24,7 @@ const Dashboard = () => {
     datasets: [
       {
         label: "Revenue by Job Location",
-        backgroundColor: "rgba(75,192,192,0.2)",
+        backgroundColor: "rgba(,192,,0.2)",
         borderColor: "rgba(75,192,192,1)",
         borderWidth: 1,
         hoverBackgroundColor: "rgba(75,192,192,0.4)",
@@ -39,7 +39,7 @@ const Dashboard = () => {
     datasets: [
       {
         label: "Revenue by Job Type",
-        backgroundColor: "rgba(75,192,192,0.2)",
+        backgroundColor: "rgba(,192,,0.2)",
         borderColor: "rgba(75,192,192,1)",
         borderWidth: 1,
         hoverBackgroundColor: "rgba(75,192,192,0.4)",
