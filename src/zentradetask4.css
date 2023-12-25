@@ -1,0 +1,13 @@
+/* Dashboard.css */
+
+.metric-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .chart {
+    margin-top: 20px;
+  }
+  
