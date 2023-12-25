@@ -63,17 +63,17 @@ const Dashboard = () => {
 
   return (
     <div className="container mt-4">
-      <h2 className="mb-4">Company Metrics</h2>
-      <div className="row">
-        {Object.entries(companyMetrics).map(([metric, value], index) => (
-          <div key={metric} className={`col-md-3 metric-box`}>
-            <div>
-              <h3>{metric.replace(/([A-Z])/g, " $1").toUpperCase()}</h3>
-              <p>{value}</p>
-            </div>
+    <h2 className="mb-4">Company Metrics</h2>
+    <div className="row">
+      {Object.entries(companyMetrics).map(([metric, value], index) => (
+        <div key={metric} className={`col-md-3 metric-box`}>
+          <div>
+            <h3>{metric.replace(/([A-Z])/g, " $1").toUpperCase()}</h3>
+            <p>{value}</p>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
+    </div>
 
       <div className="row mt-4">
         <div className="col-md-6 chart">
