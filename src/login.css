@@ -15,21 +15,20 @@
     flex: 1px ; /* Make the text fields expand to fill available space */
     height: 28px;
     margin-top: 10px; /* Adjusted margin-top for text input */
-    margin-bottom:0px; /* Adjusted margin for password input */
     border: 0.4px solid rgba(255, 255, 255, 0.2);
     border-radius: 4px;
     padding: 10px; /* Adjusted border color */
   }
   
   input[type="submit"] {
-    margin-top: 10px;
+    margin-top: 15px;
     cursor: pointer;
     font-size: 15px;
     background: #01d28e; /* Green Color */
     border: 1px solid #01d28e;
     border-radius: 4px;
     color: #fff; /* White Text */
-    padding: 5%; /* Equal padding on all sides */
+    padding: 2%; /* Equal padding on all sides */
     width: 100%; /* Make the button full width */
   }
   
@@ -43,8 +42,8 @@
     background-image: url('C:\Users\Abhimanyu Singh\OneDrive\Desktop\New folder\zentrades_assignment\login_page.png');
     padding: 140px; /* Adjusted padding */
     background-position: top; 
-    height: 250px; 
-    width: 250px;
+    height: 210px; 
+    width: 500px;
     background-repeat: no-repeat;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px; 
